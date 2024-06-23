@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "emogram"
+version = "0.1.0"
+description = ""
+authors = ["kingbrucelee <90533878+kingbrucelee@users.noreply.github.com>"]
+readme = "README.md"
+package-mode = false
+[tool.poetry.dependencies]
+python = "^3.12"
+pyTelegramBotAPI = "^4.20.0"
+textblob = "^0.18.0.post0"
+python-dotenv = "^1.0.1"
+transformers = "^4.41.2"
+torch = "^2.3.1"
+sentimentpl = "^0.0.6"
+sacremoses = "^0.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
